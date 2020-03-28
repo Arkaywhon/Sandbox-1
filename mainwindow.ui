@@ -17,8 +17,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>220</y>
+      <x>310</x>
+      <y>110</y>
       <width>191</width>
       <height>81</height>
      </rect>
@@ -33,6 +33,66 @@
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>240</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton{
+color: #ffffff;
+background: #73e600;
+}
+
+QPushButton#pushButton::pressed{
+background: #66cc00;
+}</string>
+    </property>
+    <property name="text">
+     <string>EXECUTE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>350</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_2{
+color: #ffffff;
+background: #56a644;
+}
+
+QPushButton#pushButton_2::pressed{
+background: #4b913b;
+}</string>
+    </property>
+    <property name="text">
+     <string>Build</string>
     </property>
    </widget>
   </widget>
